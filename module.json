@@ -1,0 +1,22 @@
+{
+	"name": "arcane-marks-careers",
+	"title": "Arcane Marks & Careers",
+	"description": "This module adds specific careers for the different types of Wizards in WFRP4e.",
+	"version": "1.2",
+	"author": "Moo Man",
+	"systems": ["wfrp4e"],
+	"scripts": [],
+	"styles": [],
+	"packs": [
+	{
+      "name": "arcanecareers",
+      "label": "Arcane Careers",
+      "path": "packs/arcanecareers.db",
+      "entity": "Item",
+      "module": "arcane-marks-careers",
+      "system": "wfrp4e"
+    }],
+    "url": "https://github.com/syl3r86/BetterNPCSheet5e",
+    "manifest": "https://raw.githubusercontent.com/syl3r86/BetterNPCSheet5e/master/betternpcsheet5e/module.json",
+    "download": "https://github.com/syl3r86/BetterNPCSheet5e/raw/master/betternpcsheet5e.zip"
+}
