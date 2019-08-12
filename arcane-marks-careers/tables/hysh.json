@@ -1,0 +1,47 @@
+{
+  "name": "Arcane Marks - Hysh",
+  "die" : "1d10",
+  "rows": [
+    "-",
+    {
+      "name": "Choral Voice",
+      "description": "Your voice becomes suffused with the harmonious vibrations of Hysh. When you sing, it sounds as if scores of others are singing alongside you. You gain the Perfect Pitch talent (WFRP, 142)."
+    },
+    {
+      "name": "Eureka!",
+      "description": "You inspire small acts of remembrance and deja-vu in those around you. You have no control over this effect, which tends to make non-magic users a little distracted when talking to you. This could play into your advantage if trying to sneak something by, or instead could hinder the conversation."
+    },
+    {
+      "name": "Instant Recall",
+      "description": "Whenever you use a Fortune Point to reroll a test involved in recalling information, such as using the Lore skill, you automatically succeed."
+    },
+    {
+      "name": "Intellectual Validation",
+      "description": "Your dedication to Hysh has given you enlightenment on all subjects, or so you're convinced. You must take any and all opportunities for Research, Lore, or Intelligence Tests to recall or find information. If you fail this Test, you gain a Fatigued (WFRP, 169) Condition as your mind is constantly preoccupied with your failure and the need to remedy this gap in your knowledge. Once you discover the answer, all Fatigued conditions from this source are removed."  
+    },
+    {
+      "name": "Enlightened Condescension",
+      "description": "You see yourself akin to a beacon of knowledge blazing up above a black sea of ignorance. Even among your equal and lower peers, your deep knowledge (or rather your opinion about your own education) comes off as arrogant and pretentious. You take a -10 penalty to your initial Fellowship score as you can't help but express pity at other people's lack of comprehension about the complexities you know." 
+    },
+    {
+      "name": "Stoicism",
+      "description": "Given your wisdom, you have a deeper understanding of the nature of the Realm of Chaos and how emotions can feed its influence. Not losing yourself to fear or anger is second nature as one with Hysh, Psychology Tests are one step easier."
+    },
+    {
+      "name": "Vulnerability to Darkness",
+      "description": "When in areas of darkness, Channeling (Hysh) and Language (Magick) tests are one step harder." 
+    },
+    {
+      "name": "Aura of Light",
+      "description": "You give off a radiant energy that makes other light sources glow brighter than normal. All light sources within 20 yards provide stronger light (+2 yards). Further manifestations increase this effect."
+    },
+    {
+      "name": "Luminescent",
+      "description": "You give off a constant glow, making it nearly impossible to conceal your movements. You give off 4 yards of bright light. Further manifestations increase this by 4 yards. This cannot be turned off but becomes much dimmer when sleeping. This does not counteract the Vulnerability to Darkness manifestation."
+    },
+    {
+      "name": "Mark of Hysh",
+      "description": "The rune of Hysh appears somewhere on your body. When determining SL of a successful Channeling (Hysh) Test, you can instead use the units die value as the SL of the Test."
+    }
+  ]
+}

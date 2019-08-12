@@ -1,0 +1,47 @@
+{
+  "name": "Arcane Marks - Ghur",
+  "die" : "1d10",
+  "rows": [
+    "-",
+    {
+      "name": "Savage Gaze",
+      "description": "You can use Willpower to oppose attacks from natural beasts. Additionally, if you critical when doing so, roll on any Critical Table, the number of Wounds on the rolled critical is how many Broken (WFRP, 168) conditions the animal receives. If 00 is rolled on the table, the beast runs away in such a panic that it won't return."
+    },
+    {
+      "name": "Restless",
+      "description": "You tend not to stay in one place for long, always needing to move about. It's worse when you're in closed spaces. You cannot lose Fatigued conditions (WFRP, 169) while amidst civilization." 
+    },
+    {
+      "name": "Dirty",
+      "description": "For some reason, you attract dirt and you can never fully get clean."
+    },
+    {
+      "name": "Hairy",
+      "description": "You grow thick hair all over your body. When you shave it off, it regrows quickly. You don't take penalties for Endurance Tests to withstand Cold Exposure (WFRP, 181) if you lack the proper clothing, but you are rather unsightly." 
+    },
+    {
+      "name": "Feral",
+      "description": "Your nails thicken and lengthen, and your teeth grow pointed. You have a wild-eyed appearance that others find unsettling. Fellowship Tests when interacting with peasants or middle class are one step harder by default."
+    },
+    {
+      "name": "Bestial Call",
+      "description": " Animals, domesticated or wild, can be swayed by your sheer primal force of will. You can use an Opposed Willpower Test to cause an animal to gain or lose 1 + SL Broken (WFRP, 168) conditions, with SL being the result of the opposed test. Alternatively, you can make the animal Frenzy (WFRP, 190) if you win the Opposed Test."
+    },
+    {
+      "name": "Musk",
+      "description": "You exude a strong natural musk that puts others off. Fellowship Tests when interacting with Nobles, Priests, and others of the upper class are one step harder by default when you are present."
+    },
+    {
+      "name": "Hunter's Instincts",
+      "description": "Using Outdoor Survival for Hunting and Fishing (WFRP, 127) is one step easier for you, and you can never gain the Surprised Condition (WFRP, 169) from being ambushed while in wilderness."
+    },
+    {
+      "name": "Small Friends",
+      "description": "You attract small, though harmless, animals like squirrels, mice, small birds, and so on. They seem to show up when least appropriate, leaving droppings in food and drink, or otherwise interrupting. This occurs when someone in the party Fumbles any social interaction that you are near"
+    },
+    {
+      "name": "Mark of Ghur",
+      "description": "The rune of Ghur appears somewhere on your body. When determining SL of a successful Channeling (Ghur) Test, you can instead use the units die value as the SL of the Test."
+    }
+  ]
+}

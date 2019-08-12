@@ -16,7 +16,7 @@
       "module": "arcane-marks-careers",
       "system": "wfrp4e"
     }],
-    "url": "https://github.com/moo-man/Arcane-Mark-Careers-FVTT",
-    "manifest": "https://raw.githubusercontent.com/syl3r86/Arcane-Mark-Careers-FVTT/arcane-marks-careers/module.json",
-    "download": "https://github.com/syl3r86/BetterNPCSheet5e/raw/master/betternpcsheet5e.zip"
+    "url": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT",
+    "manifest": "https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/arcane-marks-careers/module.json",
+    "download": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT/raw/master/arcane-marks-careers.zip"
 }

@@ -1,0 +1,47 @@
+{
+  "name": "Arcane Marks - Ulgu",
+  "die" : "1d10",
+  "rows": [
+    "-",
+    {
+      "name": "Flicker",
+      "description": "Light seems uncomfortable in your presence. Candles flicker, lanterns dim, and fires burn low when you are around. A Willpower Test might be able to extinguish a small flame, such as an approaching watchman's lantern…"
+    },
+    {
+      "name": "Aspect of Ulgu",
+      "description": "Your frame lightens and tightens whilst your hair color changes to grey. Upon the next manifestation, your very own likeness attracts the Grey Wind, you gain the Suffuse with Ulgu Talent (RNHD, 88) if you don’t already have it."
+    },
+    {
+      "name": "Mantle of Mist",
+      "description": "Mist, fog, smoke, and other vapors seem drawn to your side. Stealth Tests in foggy, misty, or hazy areas are one step easier for you."
+    },
+    {
+      "name": "Befuddling Aura",
+      "description": "Navigation, Perception, Evaluate, and Track Tests are one step harder when you are present, affecting everyone nearby without Arcane Lore (Shadow)."   
+    },
+    {
+      "name": "Forgettable",
+      "description": "Your appearance is rather non-descript and people can't seem to remember your face as the Grey wind muddles nearby minds. You gain the Beneath Notice Talent (WFRP, 133)." 
+    },
+    {
+      "name": "Disturbing Eyes",
+      "description": "Your eyes become grey and swirl with unnatural darkness. You advance the Night Vision Talent (WFRP, 141). If Night Vision is already at its maximum advances, you gain the Dark Vision creature trait instead. (WFRP, 339)."
+    },
+    {
+      "name": "Insubstantial",
+      "description": "If you use Language (Magick) or Dodge to Oppose an attack, rolling doubles and succeeding completely nullifies the enemy's attack as it passes straight through you with seemingly no effect." 
+    },
+    {
+      "name": "Unnatural Shadow",
+      "description": "Your shadow does not behave itself- moving often of its own accord, but only in the periphery of vision. The shifting wrongness of your shadow puts folk ill at ease when your shadow is visible, as they can't sort out the movement they thought they saw. If appropriate time and location, social interactions with people are one step harder, with a Fumble probably resulting in the individual convinced you're a Daemon."
+    },
+    {
+      "name": "Shrouded",
+      "description": "Ulgu masks those nearby as well as yourself, items that would normally give penalties, such as armor, do not do so while they are within WPB yards and within darkness, and meanwhile your Stealth checks are one step easier. This causes darkness surrounding you to become more complete and isolating, possibly invoking paranoia and fear in whoever you try to interact with at night. These social interactions with people are one step harder, with a Fumble probably resulting in the individual breaking down in panic and fleeing." 
+    },
+    {
+      "name": "Mark of Ulgu",
+      "description": "The rune of Ulgu appears somewhere on your body. When determining SL of a successful Channeling (Ulgu) Test, you can instead use the units die value as the SL of the Test."
+    }
+  ]
+}
