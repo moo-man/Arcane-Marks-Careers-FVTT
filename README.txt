@@ -1,1 +1,0 @@
-This is the modules directory. Modules should be created here as uniquely named subdirectories with module.json manifest files.
