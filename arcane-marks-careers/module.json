@@ -2,7 +2,7 @@
 	"name": "arcane-marks-careers",
 	"title": "Arcane Marks & Careers",
 	"description": "This module adds specific careers for the different types of Wizards in WFRP4e.",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"author": "Moo Man",
 	"systems": ["wfrp4e"],
 	"scripts": [],
