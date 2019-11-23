@@ -1,22 +1,26 @@
 {
-	"name": "arcane-marks-careers",
-	"title": "Arcane Marks & Careers",
-	"description": "This module adds specific careers for the different types of Wizards in WFRP4e.",
-	"version": "1.2.2",
-	"author": "Moo Man",
-	"systems": ["wfrp4e"],
-	"scripts": [],
-	"styles": [],
-	"packs": [
-	{
+  "name": "arcane-marks-careers",
+  "title": "Arcane Marks & Careers",
+  "description": "This module adds specific careers for the different types of Wizards in WFRP4e.",
+  "version": "1.2.3",
+  "author": "Moo Man",
+  "systems": [
+    "wfrp4e"
+  ],
+  "scripts": [],
+  "styles": [],
+  "packs": [
+    {
       "name": "arcanecareers",
       "label": "Arcane Careers",
       "path": "packs/arcanecareers.db",
       "entity": "Item",
       "module": "arcane-marks-careers",
       "system": "wfrp4e"
-    }],
-    "url": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT",
-    "manifest": "https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/arcane-marks-careers/module.json",
-    "download": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT/raw/master/arcane-marks-careers.zip"
+    }
+  ],
+  "url": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT",
+  "minimumCoreVersion": "0.4.0",
+  "manifest": "https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/arcane-marks-careers/module.json",
+  "download": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT/raw/master/arcane-marks-careers.zip"
 }
