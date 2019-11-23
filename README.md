@@ -5,7 +5,7 @@
 This module for FVTT adds these careers and tables to the [WFRP4e system](https://github.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT/tree/stable)
 
 ## Installation
-Add `arcane-marks-careers` into the modules folder in the `public` directory of Foundry. Enable the module in your world, then restart Foundry.
+Manifest URL: `https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/module.json`
 
 ## Tables
 
