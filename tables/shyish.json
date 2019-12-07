@@ -1,47 +1,45 @@
 {
   "name": "Arcane Marks - Shyish",
-  "die" : "1d10",
-  "rows": [
-    "-",
-    {
-      "name": "Pallor",
-      "description": "Your appearance becomes sallow, with pale skin and almost jaundiced eyes, modify your initial Fellowship by -10. Upon the next manifestation, your skin draws tightly to your skull. You can cause Fear 1 (WFRP, 190) in superstitious folk, such as peasants or housewives."
-    },
-    {
-      "name": "Cadaverous",
-      "description": "You have cold skin; your eyes are those of a dead man. Asleep, you could be mistaken for dead. Upon the next manifestation you begin to stink of the grave and attract scavengers such as carrion birds. If you are nearby, Impressive Failures or Fumbles by the party in the wilderness might attract larger, more aggressive types of scavengers."
-    },
-    {
-      "name": "Voice of the Dead",
-      "description": "Your voice changes to that of an unsettling, hoarse whisper. It is incredibly difficult to raise your voice."
-    },
-    {
-      "name": "Grim Determination",
-      "description": "Despite your unhealthy appearance, Shyish fuels your determination to see it to the inevitable end, Fatigued conditions (WFRP, 169) do not give penalties to Tests. Upon the next manifestation, you ignore all effects of aging (but you still die of old age)." 
-    },
-    {
-      "name": "Burden of Time",
-      "description": "Staying in one place for any length of time causes surrounding plant life (10-yard radius) to wither and die. This may end up angering people, such as a noble whose garden you have ruined, or a farmer after he discovers his crops are dead." 
-    },
-    {
-      "name": "Siphon",
-      "description": "When a living being of relative human size (Small or larger), who has Fatigued (WFRP, 169) conditions from one of your spells, dies, you gain 1 Wound."
-    },
-    {
-      "name": "Skeletal Frame",
-      "description": "Your body muscle withers, modify your initial Strength by -10."
-    },
-    {
-      "name": "Aura of Lost Hope",
-      "description": "Whenever you are nearby, people remember. Whether it is with a sad, distant knell, or through visions of memories, you have an effect on those in proximity that brings to mind everyone they had ever known who had died and all the good things they had ever lost. The efficacy of the effect depends on the person and can be beneficial or detrimental, such as distracting someone as they hold back tears, or ruining a persuasion attempt as they break down sobbing. Upon the next manifestation, you fail to find satisfaction in anything other than eradicating violations of Shyish, you do not receive experience from Ambitions unrelated to your Order."
-    },
-    {
-      "name": "Haunted",
-      "description": "Voices and apparitions of the dead follow you everywhere. You can choose to listen to these voices with a Challenging (+0) Perception, which may provide helpful insight from the knowledge of the local collective dead. On a failure, gain 1 Corruption point, and on a Fumble, you may have attracted more attention from those on the other side…"
-    },
-    {
-      "name": "Mark of Shyish",
-      "description": "The rune of Shyish appears somewhere on your body. When determining SL of a successful Channeling (Shyish) Test, you can instead use the units die value as the SL of the Test"
-    }
-  ]
+  "die": "1d10",
+  "rows": [{
+    "name": "Pallor",
+    "description": "Your appearance becomes sallow, with pale skin and almost jaundiced eyes, modify your initial Fellowship by -10. Upon the next manifestation, your skin draws tightly to your skull. You can cause Fear 1 (WFRP, 190) in superstitious folk, such as peasants or housewives.",
+    "range": [1, 1]
+  }, {
+    "name": "Cadaverous",
+    "description": "You have cold skin; your eyes are those of a dead man. Asleep, you could be mistaken for dead. Upon the next manifestation you begin to stink of the grave and attract scavengers such as carrion birds. If you are nearby, Impressive Failures or Fumbles by the party in the wilderness might attract larger, more aggressive types of scavengers.",
+    "range": [2, 2]
+  }, {
+    "name": "Voice of the Dead",
+    "description": "Your voice changes to that of an unsettling, hoarse whisper. It is incredibly difficult to raise your voice.",
+    "range": [3, 3]
+  }, {
+    "name": "Grim Determination",
+    "description": "Despite your unhealthy appearance, Shyish fuels your determination to see it to the inevitable end, Fatigued conditions (WFRP, 169) do not give penalties to Tests. Upon the next manifestation, you ignore all effects of aging (but you still die of old age).",
+    "range": [4, 4]
+  }, {
+    "name": "Burden of Time",
+    "description": "Staying in one place for any length of time causes surrounding plant life (10-yard radius) to wither and die. This may end up angering people, such as a noble whose garden you have ruined, or a farmer after he discovers his crops are dead.",
+    "range": [5, 5]
+  }, {
+    "name": "Siphon",
+    "description": "When a living being of relative human size (Small or larger), who has Fatigued (WFRP, 169) conditions from one of your spells, dies, you gain 1 Wound.",
+    "range": [6, 6]
+  }, {
+    "name": "Skeletal Frame",
+    "description": "Your body muscle withers, modify your initial Strength by -10.",
+    "range": [7, 7]
+  }, {
+    "name": "Aura of Lost Hope",
+    "description": "Whenever you are nearby, people remember. Whether it is with a sad, distant knell, or through visions of memories, you have an effect on those in proximity that brings to mind everyone they had ever known who had died and all the good things they had ever lost. The efficacy of the effect depends on the person and can be beneficial or detrimental, such as distracting someone as they hold back tears, or ruining a persuasion attempt as they break down sobbing. Upon the next manifestation, you fail to find satisfaction in anything other than eradicating violations of Shyish, you do not receive experience from Ambitions unrelated to your Order.",
+    "range": [8, 8]
+  }, {
+    "name": "Haunted",
+    "description": "Voices and apparitions of the dead follow you everywhere. You can choose to listen to these voices with a Challenging (+0) Perception, which may provide helpful insight from the knowledge of the local collective dead. On a failure, gain 1 Corruption point, and on a Fumble, you may have attracted more attention from those on the other side…",
+    "range": [9, 9]
+  }, {
+    "name": "Mark of Shyish",
+    "description": "The rune of Shyish appears somewhere on your body. When determining SL of a successful Channeling (Shyish) Test, you can instead use the units die value as the SL of the Test",
+    "range": [10, 10]
+  }]
 }

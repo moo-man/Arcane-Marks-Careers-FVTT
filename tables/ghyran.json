@@ -1,47 +1,45 @@
 {
   "name": "Arcane Marks - Ghyran",
-  "die" : "1d10",
-  "rows": [
-    "-",
-    {
-      "name": "Rapid Growth",
-      "description": "Your hair and fingernails grow at an almost alarming rate. You must spend a portion of each day trimming them back. Further manifestations cause plant-life to also form, such as ivy growing in hair or mold under fingernails, which grow back within a day if removed."
-    },
-    {
-      "name": "Barefoot",
-      "description": "You can't abide by wearing footwear and when you must, all Agility Tests have a difficulty of Hard (-20) by default."
-    },
-    {
-      "name": "Natural Suture",
-      "description": "Whenever you or anyone within WPB yards roll to determine death by bleeding, rolling a double removes an extra Bleeding condition. Upon the next manifestation, whenever you or anyone you are with perform the Endurance Test to regain Wounds after resting, assuming you are in proximity for most of the time, they always regain at least 1 Wound minimum (WFRP, 181)."
-    },
-    {
-      "name": "Nemophilist",
-      "description": "You gain the Arboreal trait (WFRP, 338)."  
-    },
-    {
-      "name": "Vulnerability to Fire",
-      "description": "When you suffer Damage from any amount of Ablaze conditions, you take +1 Damage. Further manifestations stack." 
-    },
-    {
-      "name": "Great Constitution",
-      "description": "You gain a Resistance (Disease) Talent, Upon the next manifestation you gain the Resistance (Poison) Talent (WFRP, 143)."
-    },
-    {
-      "name": "Viral Catalyst",
-      "description": "Your influence causes even destructive things to procreate, diseases incubate twice as fast and last twice as long in everyone around you. In addition, unpreserved food perishes twice as fast while you are near." 
-    },
-    {
-      "name": "Aura of Growth",
-      "description": "You emit an aura of growth and health. Remaining in one place for any extended period of time causes a noticeable boost in the life and color of the surrounding flora, and growth is apparent even in areas of civilization where you reside. Foraging is one step easier with you"
-    },
-    {
-      "name": "Bound to the Seasons",
-      "description": "You are physically affected by the passage of the seasons. In winter, you take a -2 Penalty to Wounds characteristic and a -1 penalty to Move characteristic. In Autumn, you take a -1 penalty to your Wounds characteristic. In spring, you gain a +1 bonus to Wounds characteristic. In summer, you gain a +2 bonus to Wounds characteristic and +1 bonus to your movement characteristic."
-    },
-    {
-      "name": "Mark of Ghyran",
-      "description": "The rune of Ghyran appears somewhere on your body. When determining SL of a successful Channeling (Ghyran) Test, you can instead use the units die value as the SL of the Test."
-    }
-  ]
+  "die": "1d10",
+  "rows": [{
+    "name": "Rapid Growth",
+    "description": "Your hair and fingernails grow at an almost alarming rate. You must spend a portion of each day trimming them back. Further manifestations cause plant-life to also form, such as ivy growing in hair or mold under fingernails, which grow back within a day if removed.",
+    "range": [1, 1]
+  }, {
+    "name": "Barefoot",
+    "description": "You can't abide by wearing footwear and when you must, all Agility Tests have a difficulty of Hard (-20) by default.",
+    "range": [2, 2]
+  }, {
+    "name": "Natural Suture",
+    "description": "Whenever you or anyone within WPB yards roll to determine death by bleeding, rolling a double removes an extra Bleeding condition. Upon the next manifestation, whenever you or anyone you are with perform the Endurance Test to regain Wounds after resting, assuming you are in proximity for most of the time, they always regain at least 1 Wound minimum (WFRP, 181).",
+    "range": [3, 3]
+  }, {
+    "name": "Nemophilist",
+    "description": "You gain the Arboreal trait (WFRP, 338).",
+    "range": [4, 4]
+  }, {
+    "name": "Vulnerability to Fire",
+    "description": "When you suffer Damage from any amount of Ablaze conditions, you take +1 Damage. Further manifestations stack.",
+    "range": [5, 5]
+  }, {
+    "name": "Great Constitution",
+    "description": "You gain a Resistance (Disease) Talent, Upon the next manifestation you gain the Resistance (Poison) Talent (WFRP, 143).",
+    "range": [6, 6]
+  }, {
+    "name": "Viral Catalyst",
+    "description": "Your influence causes even destructive things to procreate, diseases incubate twice as fast and last twice as long in everyone around you. In addition, unpreserved food perishes twice as fast while you are near.",
+    "range": [7, 7]
+  }, {
+    "name": "Aura of Growth",
+    "description": "You emit an aura of growth and health. Remaining in one place for any extended period of time causes a noticeable boost in the life and color of the surrounding flora, and growth is apparent even in areas of civilization where you reside. Foraging is one step easier with you",
+    "range": [8, 8]
+  }, {
+    "name": "Bound to the Seasons",
+    "description": "You are physically affected by the passage of the seasons. In winter, you take a -2 Penalty to Wounds characteristic and a -1 penalty to Move characteristic. In Autumn, you take a -1 penalty to your Wounds characteristic. In spring, you gain a +1 bonus to Wounds characteristic. In summer, you gain a +2 bonus to Wounds characteristic and +1 bonus to your movement characteristic.",
+    "range": [9, 9]
+  }, {
+    "name": "Mark of Ghyran",
+    "description": "The rune of Ghyran appears somewhere on your body. When determining SL of a successful Channeling (Ghyran) Test, you can instead use the units die value as the SL of the Test.",
+    "range": [10, 10]
+  }]
 }

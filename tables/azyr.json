@@ -1,47 +1,45 @@
 {
   "name": "Arcane Marks - Azyr",
-  "die" : "1d10",
-  "rows": [
-    "-",
-    {
-      "name": "White Hair",
-      "description": "Your hair turns snow white. Dyes do not hold."
-    },
-    {
-      "name": "Forecaster",
-      "description": "Natural weather never comes as a surprise to you, as it is easily predictable within a week, requiring no Test to correctly determine."
-    },
-    {
-      "name": "Keen Foresight",
-      "description": "Using a Fortune Point gives +2 SL to a Test instead of +1 SL."
-    },
-    {
-      "name": "Heavenly Eyes",
-      "description": "Your eyes change color to a startling shade of bright blue. Further manifestations are more unsettling, with your eyes' hue growing much darker, becoming a host of faint sparkles resembling stars and dark swirls resembling nebulae. Especially discernable in the dark, the patterns move as you look around, as if they are a reflection."  
-    },
-    {
-      "name": "Disturbing Visions",
-      "description": "You frequently receive visions of disconnected, portentous events, usually meaningless to you. The constant barrage is distracting, Perception Tests are one step harder by default. However, sometimes they can aid you in dangerous situations. If you use a Fortune Point to reroll a Test and then roll a double, you regain that Fortune Point." 
-    },
-    {
-      "name": "Scentless",
-      "description": "Your natural smell is replaced by the scent of clean, fresh air. Reeking fluids, noxious potions, and other sources of stench gradually lose their aroma on contact with your person. Your clothing, if corresponding with the Order's color, also eventually becomes clean if it is being worn. Attempts to track you personally using scent are considered Hard (-20)."
-    },
-    {
-      "name": "Astrological Ravings",
-      "description": "Portents of the world are clear in night sky, yet most ignore it or are ignorant. Typically, conversations with you end up referencing the current Star Sign, which you find relevant in every situation. This is quite irritating to everyone except the most suspicious of peasants, resulting in all Fellowship tests in your presence being one step harder by default. However, those prone to believe may be easily manipulated."
-    },
-    {
-      "name": "Aura of Tranquility",
-      "description": "You emit a strange, but peaceful aura that others find calming. All Intimidate Tests in your presence are one step harder, and you can Oppose any nearby Intimidate Test in place of the intended target with your Willpower, with winning resulting in the belligerent quickly losing steam." 
-    },
-    {
-      "name": "Stargazer",
-      "description": " You become agitated when unable to scry the stars. For each night you fail to observe the night sky for at least an hour, the default difficulty of Willpower and Intelligence based Tests becomes one step harder, to a maximum on Very Hard (-30). When you are able to study the heavens once again, default difficulty returns to normal"
-    },
-    {
-      "name": "Mark of Azyr",
-      "description": "The rune of Azyr appears somewhere on your body. When determining SL of a successful Channeling (Azyr) Test, you can instead use the units die value as the SL of the Test."
-    }
-  ]
+  "die": "1d10",
+  "rows": [{
+    "name": "White Hair",
+    "description": "Your hair turns snow white. Dyes do not hold.",
+    "range": [1, 1]
+  }, {
+    "name": "Forecaster",
+    "description": "Natural weather never comes as a surprise to you, as it is easily predictable within a week, requiring no Test to correctly determine.",
+    "range": [2, 2]
+  }, {
+    "name": "Keen Foresight",
+    "description": "Using a Fortune Point gives +2 SL to a Test instead of +1 SL.",
+    "range": [3, 3]
+  }, {
+    "name": "Heavenly Eyes",
+    "description": "Your eyes change color to a startling shade of bright blue. Further manifestations are more unsettling, with your eyes' hue growing much darker, becoming a host of faint sparkles resembling stars and dark swirls resembling nebulae. Especially discernable in the dark, the patterns move as you look around, as if they are a reflection.",
+    "range": [4, 4]
+  }, {
+    "name": "Disturbing Visions",
+    "description": "You frequently receive visions of disconnected, portentous events, usually meaningless to you. The constant barrage is distracting, Perception Tests are one step harder by default. However, sometimes they can aid you in dangerous situations. If you use a Fortune Point to reroll a Test and then roll a double, you regain that Fortune Point.",
+    "range": [5, 5]
+  }, {
+    "name": "Scentless",
+    "description": "Your natural smell is replaced by the scent of clean, fresh air. Reeking fluids, noxious potions, and other sources of stench gradually lose their aroma on contact with your person. Your clothing, if corresponding with the Order's color, also eventually becomes clean if it is being worn. Attempts to track you personally using scent are considered Hard (-20).",
+    "range": [6, 6]
+  }, {
+    "name": "Astrological Ravings",
+    "description": "Portents of the world are clear in night sky, yet most ignore it or are ignorant. Typically, conversations with you end up referencing the current Star Sign, which you find relevant in every situation. This is quite irritating to everyone except the most suspicious of peasants, resulting in all Fellowship tests in your presence being one step harder by default. However, those prone to believe may be easily manipulated.",
+    "range": [7, 7]
+  }, {
+    "name": "Aura of Tranquility",
+    "description": "You emit a strange, but peaceful aura that others find calming. All Intimidate Tests in your presence are one step harder, and you can Oppose any nearby Intimidate Test in place of the intended target with your Willpower, with winning resulting in the belligerent quickly losing steam.",
+    "range": [8, 8]
+  }, {
+    "name": "Stargazer",
+    "description": " You become agitated when unable to scry the stars. For each night you fail to observe the night sky for at least an hour, the default difficulty of Willpower and Intelligence based Tests becomes one step harder, to a maximum on Very Hard (-30). When you are able to study the heavens once again, default difficulty returns to normal",
+    "range": [9, 9]
+  }, {
+    "name": "Mark of Azyr",
+    "description": "The rune of Azyr appears somewhere on your body. When determining SL of a successful Channeling (Azyr) Test, you can instead use the units die value as the SL of the Test.",
+    "range": [10, 10]
+  }]
 }
