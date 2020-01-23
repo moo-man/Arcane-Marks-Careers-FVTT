@@ -1,6 +1,7 @@
 {
   "name": "Arcane Marks - Shyish",
   "die": "1d10",
+  "hide" : true,
   "rows": [{
     "name": "Pallor",
     "description": "Your appearance becomes sallow, with pale skin and almost jaundiced eyes, modify your initial Fellowship by -10. Upon the next manifestation, your skin draws tightly to your skull. You can cause Fear 1 (WFRP, 190) in superstitious folk, such as peasants or housewives.",

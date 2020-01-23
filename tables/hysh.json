@@ -1,6 +1,7 @@
 {
   "name": "Arcane Marks - Hysh",
   "die": "1d10",
+  "hide" : true,
   "rows": [{
     "name": "Choral Voice",
     "description": "Your voice becomes suffused with the harmonious vibrations of Hysh. When you sing, it sounds as if scores of others are singing alongside you. You gain the Perfect Pitch talent (WFRP, 142).",

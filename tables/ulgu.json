@@ -1,6 +1,7 @@
 {
   "name": "Arcane Marks - Ulgu",
   "die": "1d10",
+  "hide" : true,
   "rows": [{
     "name": "Flicker",
     "description": "Light seems uncomfortable in your presence. Candles flicker, lanterns dim, and fires burn low when you are around. A Willpower Test might be able to extinguish a small flame, such as an approaching watchman's lantern…",

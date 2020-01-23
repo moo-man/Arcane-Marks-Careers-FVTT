@@ -1,6 +1,7 @@
 {
   "name": "Arcane Marks - Chamon",
   "die": "1d10",
+  "hide" : true,
   "rows": [{
     "name": "Quicksilver Tears",
     "description": "Your tears and sweat take on the appearance of mercury. For all intents and purposes they remain unchanged from normal tears and sweat.",

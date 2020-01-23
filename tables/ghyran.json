@@ -1,6 +1,7 @@
 {
   "name": "Arcane Marks - Ghyran",
   "die": "1d10",
+  "hide" : true,
   "rows": [{
     "name": "Rapid Growth",
     "description": "Your hair and fingernails grow at an almost alarming rate. You must spend a portion of each day trimming them back. Further manifestations cause plant-life to also form, such as ivy growing in hair or mold under fingernails, which grow back within a day if removed.",

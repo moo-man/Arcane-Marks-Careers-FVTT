@@ -1,6 +1,7 @@
 {
   "name": "Arcane Marks - Ghur",
   "die": "1d10",
+  "hide" : true,
   "rows": [{
     "name": "Savage Gaze",
     "description": "You can use Willpower to oppose attacks from natural beasts. Additionally, if you critical when doing so, roll on any Critical Table, the number of Wounds on the rolled critical is how many Broken (WFRP, 168) conditions the animal receives. If 00 is rolled on the table, the beast runs away in such a panic that it won't return.",

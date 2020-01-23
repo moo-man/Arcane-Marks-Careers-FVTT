@@ -1,6 +1,7 @@
 {
   "name": "Arcane Marks - Azyr",
   "die": "1d10",
+  "hide" : true,
   "rows": [{
     "name": "White Hair",
     "description": "Your hair turns snow white. Dyes do not hold.",

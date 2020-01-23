@@ -2,7 +2,7 @@
   "name": "arcane-marks-careers",
   "title": "Arcane Marks & Careers",
   "description": "This module adds specific careers for the different types of Wizards in WFRP4e.",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": "Moo Man",
   "systems": [
     "wfrp4e"
@@ -16,11 +16,12 @@
       "path": "packs/arcanecareers.db",
       "entity": "Item",
       "module": "arcane-marks-careers",
-      "system": "wfrp4e"
+      "system": "wfrp4e",
+      "tag" : "career"
     }
   ],
   "url": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT",
-  "minimumCoreVersion": "0.4.0",
+  "minimumCoreVersion": "0.4.4",
   "manifest": "https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/module.json",
   "download": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT/archive/master.zip"
 }

@@ -1,6 +1,7 @@
 {
   "name": "Arcane Marks - Aqshy",
   "die": "1d10",
+  "hide" : true,
   "rows": [{
     "name": "Temper",
     "description": "You have a quick temper, losing your cool at the slightest provocation.",
