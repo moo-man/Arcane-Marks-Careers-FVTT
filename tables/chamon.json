@@ -1,46 +1,77 @@
 {
   "name": "Arcane Marks - Chamon",
   "die": "1d10",
-  "hide" : true,
-  "rows": [{
-    "name": "Quicksilver Tears",
-    "description": "Your tears and sweat take on the appearance of mercury. For all intents and purposes they remain unchanged from normal tears and sweat.",
-    "range": [1, 1]
-  }, {
-    "name": "Leaden Tongue",
-    "description": "Your voice takes on a harsh tone, akin to metal clashing upon metal. Your singing sounds like a gong related accident.",
-    "range": [2, 2]
-  }, {
-    "name": "Metallic Affinity",
-    "description": "You gain the Numismatics Talent (WFRP, 142), but it can be applied to anything made of metal.",
-    "range": [3, 3]
-  }, {
-    "name": "Transmuting Aura",
-    "description": "All metal armor, excluding your own and shields, within WPB yards is either considered to have +1 AP, or -1 AP. Using an Action, you can switch this effect by succeeding on a Challenging (+0) Willpower Test. This interacts with the Metal Lore effect normally, but extra AP from this source cannot be used in Critical Deflection (WFRP, 299).",
-    "range": [4, 4]
-  }, {
-    "name": "Willful Alterations",
-    "description": "With a successful Willpower Test, you can make a metal item appear more or less appealing, equivalent to gaining Fine or Ugly (WFRP, 292). This could influence nearby Tests in different ways, such as a Haggle Test to convince someone of an item's high price, or to sabotage a noble's Charm Tests as you make their valuables look cheap and tarnished. These effects are superficial, such as shine and smoothness. They are also temporary, lasting at most WP minutes, depending on how close you are. It is evident to anyone with Second Sight that something is off about the item and it has to do with magic, successful Intuition checks by them may reveal more.",
-    "range": [5, 5]
-  }, {
-    "name": "Aura of Magnetism",
-    "description": "Small metal projectiles tend to veer toward your person. Dodge Tests opposing such projectiles are one step harder. Additionally, everyone within 2 yards can use Dodge to Oppose any ranged weapon attacks that use appropriate ammunition, regardless of range. If the attacker misses and their SL was greater than -3, you must then Oppose the same attack with Dodge.",
-    "range": [6, 6]
-  }, {
-    "name": "Mechanical",
-    "description": "With your stiff gait and robotic movements, animals see you as an object rather than a creature, and they are very uneasy when you approach them. All Tests involving animal cooperation when you are around are one step harder.",
-    "range": [7, 7]
-  }, {
-    "name": "Hardness",
-    "description": "If you take Damage from metal, the 1 Wound minimum rule does not apply.",
-    "range": [8, 8]
-  }, {
-    "name": "Golden Skin",
-    "description": "The first manifestation of Golden Skin causes your skin to become thick, gaining a subtle golden sheen. On subsequent manifestations, your skin hardens into a thick shell. You take a -10 penalty to your starting Agility and Weapon Skill characteristic, a +10 bonus to Channeling (Chamon) tests, a -1 penalty to Movement characteristic, and gain 1 AP to all Hit Locations. These points stack with all other forms of armor but can't be used with Critical Deflection. If you are reduced to 0 Movement, you either can't move (akin to a golden statue) or move so stiffly and slowly that you might as well be immobile, and at this point you constantly have the Impenetrable Armor Quality (WFRP, 300).",
-    "range": [9, 9]
-  }, {
-    "name": "Mark of Chamon",
-    "description": "The rune of Chamon appears somewhere on your body. When determining SL of a successful Channeling (Chamon) Test, you can instead use the units die value as the SL of the Test.",
-    "range": [10, 10]
-  }]
+  "hide": true,
+  "rows": [
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.9E698fuDj1ByyZno]{Quicksilver Tears}",
+            "range": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.fYab7lQLoAbgrPAl]{Leaden Tongue}",
+            "range": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.XZ2r35m5FdX1Ux9m]{Metallic Affinity}",
+            "range": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.D9Q5nEcn1st4xStU]{Transmuting Aura}",
+            "range": [
+        4,
+        4
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.0vXml5jYBNE02kyH]{Willful Alterations}",
+            "range": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.zQ6ZXj7HPGqGR9pg]{Aura of Magnetism}",
+            "range": [
+        6,
+        6
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.Is0gxMEjgu0WGAiq]{Mechanical}",
+            "range": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.lzJlzjROvxgjpDvc]{Hardness}",
+            "range": [
+        8,
+        8
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.KlP9YPNZO8mXxfU7]{Golden Skin}",
+            "range": [
+        9,
+        9
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.tctuT09ViC6JpxLV]{Mark of Chamon}",
+            "range": [
+        10,
+        10
+      ]
+    }
+  ]
 }

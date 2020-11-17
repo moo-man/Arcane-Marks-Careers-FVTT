@@ -2,46 +2,87 @@
   "name": "Arcane Marks - Aqshy",
   "die": "1d10",
   "hide" : true,
-  "rows": [{
-    "name": "Temper",
-    "description": "You have a quick temper, losing your cool at the slightest provocation.",
-    "range": [1, 1],
-    "roll": 1
-  }, {
-    "name": "Hyperactive",
-    "description": "You can't sit still. You fidget constantly. Hesitation is weakness, deliberation a waste of time.",
-    "range": [2, 2]
-  }, {
-    "name": "Fiery Hair",
-    "description": "Your hair and eyebrows turn a bright, fiery red, your hair naturally finds itself in the tangled shape of flame. Upon the second manifestation, your hair ignites as you cast spells, your temper flares, or some other cause for heightened emotion. This fire is as hot and bright as any, but you are unaffected.",
-    "range": [3, 3]
-  }, {
-    "name": "Spontaneous Combustion",
-    "description": "Any sort of Fumble on your part usually results in an unfortunate combustion of something nearby, maybe as a result of something drawing your ire, or you standing in the wrong area. This may make whatever situation incredibly worse, such as catching a noble's tapestry on fire, or a peasant's mangy dog, or yourself!",
-    "range": [4, 4]
-  }, {
-    "name": "Flaming Eyes",
-    "description": "Your eyes literally smolder with energy. Intimidate Tests are one step easier by default when dealing with folk who are not accustomed to magic, but Fellowship Tests are one step harder.",
-    "range": [5, 5]
-  }, {
-    "name": "Hot Skin",
-    "description": "Your skin is always feverish, you have a flushed appearance, you do not suffer the effects from Heat Exposure (WFRP, 181).",
-    "range": [6, 6]
-  }, {
-    "name": "Vulnerable to Cold",
-    "description": "You are uncomfortable in the cold, all tests in cold environments (those qualifying for Cold Exposure) are one step harder by default (WFRP, 181).",
-    "range": [7, 7]
-  }, {
-    "name": "Fire Resistant",
-    "description": "You can count your TB again in determining Wound loss from Damage coming from fire, including Ablaze and Breath attacks.",
-    "range": [8, 8]
-  }, {
-    "name": "Feed the Fire",
-    "description": "When you are within 4 yards of an Ablaze Condition stack (including your own), it deals +1 Damage total (WFRP, 167).",
-    "range": [9, 9]
-  }, {
-    "name": "Mark of Aqshy",
-    "description": "The rune of Aqshy appears somewhere on your body. When determining SL of a successful Channeling (Aqshy) Test, you can instead use the units die value as the SL of the Test.",
-    "range": [10, 10]
-  }]
+  "rows": [
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.mMWcCHSMgcD74h8B]{Temper}",
+      
+      "range": [
+        1,
+        1
+      ],
+      "roll": 1
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.olGDH4UF7bNXTcde]{Hyperactive}",
+      
+      "range": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.RYzUOH9Dwil4BaZ6]{Fiery Hair}",
+      
+      "range": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.j66fVRszE0LpPL7m]{Spontaneous Combustion}",
+      
+      "range": [
+        4,
+        4
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.j572oq6ovNFG6d2Y]{Flaming Eyes}",
+      
+      "range": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.uvUsa4madpgiOMxC]{Hot Skin}",
+      
+      "range": [
+        6,
+        6
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.z188BrVOHigmGkv8]{Vulnerable to Cold}",
+      
+      "range": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.HalfRNPNS7fdCKdG]{Fire Resistant}",
+      
+      "range": [
+        8,
+        8
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.ORM6QmW9zUYd5D04]{Feed the Fire}",
+      
+      "range": [
+        9,
+        9
+      ]
+    },
+    {
+      "name": "@Compendium[arcane-marks-careers.arcanemarks.r41J7UwdBw2oVEEP]{Mark of Aqshy}",
+      
+      "range": [
+        10,
+        10
+      ]
+    }
+  ]
 }
