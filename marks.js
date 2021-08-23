@@ -9,34 +9,32 @@ Hooks.on("init", () => {
 	});
 })
 
-Hooks.on("wfrp4e:rollCastTest", testResults => {
+Hooks.on("wfrp4e:rollCastTest", test => {
     if (!game.settings.get("arcane-marks-careers", "rollMarks"))
         return
-    if (testResults.extra.critical)
+
+    let wind = (game.wfrp4e.config.magicWind[test.spell.lore.value] || "").toLowerCase();
+    if (test.result.critical && game.wfrp4e.tables[wind])
     {
-        if (new Roll("1d10").roll().total == 8)
-        {
-            let wind = game.wfrp4e.config.magicWind[testResults.spell.data.lore.value].toLowerCase();
-            if (game.wfrp4e.tables[wind])
-            {
-                testResults.other.push(`<a class ='table-click' data-table='${wind}'><i class='fas fa-list'></i> Arcane Mark</a> Gained`)
-            }
-        }
+        let roll = new Roll("1d10").roll().total
+        if (roll == 8)
+            test.result.other.push(`<a class ='table-click' data-table='${wind}'><i class='fas fa-list'></i> Arcane Mark</a> Gained`)
+        else 
+            test.result.other.push(`<b>Arcane Mark Roll</b>: ${roll}`)
     }
 })
 
-Hooks.on("wfrp4e:rollChannelTest", testResults => {
+Hooks.on("wfrp4e:rollChannelTest", test => {
     if (!game.settings.get("arcane-marks-careers", "rollMarks"))
         return
-    if (testResults.extra.criticalchannell)
+
+    let wind = (game.wfrp4e.config.magicWind[test.spell.lore.value] || "").toLowerCase();
+    if (test.result.criticalchannell && game.wfrp4e.tables[wind])
     {
-        if (new Roll("1d10").roll().total == 8)
-        {
-            let wind = game.wfrp4e.config.magicWind[testResults.spell.data.lore.value].toLowerCase();
-            if (game.wfrp4e.tables[wind])
-            {
-                testResults.other.push(`<a class ='table-click' data-table='${wind}'><i class='fas fa-list'></i> Arcane Mark</a> Gained`)
-            }
-        }
+        let roll = new Roll("1d10").roll().total
+        if (roll == 8)
+            test.result.other.push(`<a class ='table-click' data-table='${wind}'><i class='fas fa-list'></i> Arcane Mark</a> Gained`)
+        else 
+            test.result.other.push(`<b>Arcane Mark Roll</b>: ${roll}`)
     }
 })
