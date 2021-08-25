@@ -42,5 +42,5 @@
   "minimumCoreVersion": "0.7.0",
   "compatibleCoreVersion": "0.7.9",
   "manifest": "https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/module.json",
-  "download": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT/archive/master.zip"
+  "download": "https://github.com/moo-man/Arcane-Marks-Careers-FVTT/releases/download/2.0/arcane-marks-careers.zip"
 }
