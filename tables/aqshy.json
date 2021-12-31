@@ -4,7 +4,7 @@
   "hide" : true,
   "rows": [
     {
-      "name": "@Compendium[arcane-marks-careers.arcanemarks.mMWcCHSMgcD74h8B]{Temper}",
+      "name": "Temper",
       
       "range": [
         1,
@@ -13,7 +13,7 @@
       "roll": 1
     },
     {
-      "name": "@Compendium[arcane-marks-careers.arcanemarks.olGDH4UF7bNXTcde]{Hyperactive}",
+      "name": "Hyperactive",
       
       "range": [
         2,
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "name": "@Compendium[arcane-marks-careers.arcanemarks.RYzUOH9Dwil4BaZ6]{Fiery Hair}",
+      "name": "Fiery Hair",
       
       "range": [
         3,
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "name": "@Compendium[arcane-marks-careers.arcanemarks.j66fVRszE0LpPL7m]{Spontaneous Combustion}",
+      "name": "Spontaneous Combustion",
       
       "range": [
         4,
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "name": "@Compendium[arcane-marks-careers.arcanemarks.j572oq6ovNFG6d2Y]{Flaming Eyes}",
+      "name": "Flaming Eyes",
       
       "range": [
         5,
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "name": "@Compendium[arcane-marks-careers.arcanemarks.uvUsa4madpgiOMxC]{Hot Skin}",
+      "name": "Hot Skin",
       
       "range": [
         6,
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "name": "@Compendium[arcane-marks-careers.arcanemarks.z188BrVOHigmGkv8]{Vulnerable to Cold}",
+      "name": "Vulnerable to Cold",
       
       "range": [
         7,
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "name": "@Compendium[arcane-marks-careers.arcanemarks.HalfRNPNS7fdCKdG]{Fire Resistant}",
+      "name": "Fire Resistant",
       
       "range": [
         8,
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "name": "@Compendium[arcane-marks-careers.arcanemarks.ORM6QmW9zUYd5D04]{Feed the Fire}",
+      "name": "Feed the Fire",
       
       "range": [
         9,
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "name": "@Compendium[arcane-marks-careers.arcanemarks.r41J7UwdBw2oVEEP]{Mark of Aqshy}",
+      "name": "Mark of Aqshy",
       
       "range": [
         10,

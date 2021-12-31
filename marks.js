@@ -9,14 +9,14 @@ Hooks.on("init", () => {
 	});
 })
 
-Hooks.on("wfrp4e:rollCastTest", test => {
+Hooks.on("wfrp4e:rollCastTest", async test => {
     if (!game.settings.get("arcane-marks-careers", "rollMarks"))
         return
 
     let wind = (game.wfrp4e.config.magicWind[test.spell.lore.value] || "").toLowerCase();
     if (test.result.critical && game.wfrp4e.tables[wind])
     {
-        let roll = new Roll("1d10").roll().total
+        let roll = Math.ceil(CONFIG.Dice.randomUniform() * 10)
         if (roll == 8)
             test.result.other.push(`<a class ='table-click' data-table='${wind}'><i class='fas fa-list'></i> Arcane Mark</a> Gained`)
         else 
@@ -24,14 +24,14 @@ Hooks.on("wfrp4e:rollCastTest", test => {
     }
 })
 
-Hooks.on("wfrp4e:rollChannelTest", test => {
+Hooks.on("wfrp4e:rollChannelTest", async test => {
     if (!game.settings.get("arcane-marks-careers", "rollMarks"))
         return
 
     let wind = (game.wfrp4e.config.magicWind[test.spell.lore.value] || "").toLowerCase();
     if (test.result.criticalchannell && game.wfrp4e.tables[wind])
     {
-        let roll = new Roll("1d10").roll().total
+        let roll = Math.ceil(CONFIG.Dice.randomUniform() * 10)
         if (roll == 8)
             test.result.other.push(`<a class ='table-click' data-table='${wind}'><i class='fas fa-list'></i> Arcane Mark</a> Gained`)
         else 
